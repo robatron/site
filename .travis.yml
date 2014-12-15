@@ -5,7 +5,7 @@ script: npm run build
 addons:
   artifacts:
     paths:
-      - $(find public | tr "\n" ":")
+      - $(git ls-files -o | grep "^public/" | tr "\n" ":")
     key:
       secure: B78yxXFB188HA3iy2e6zu6Mbo+e78z9bkQrEBoi5O7e/jsOk/d1TFVBYgkkymn0+mX6l+dJ9gGx9t85pEOiLcA5wFGyrszFTsD330UQKw5U4B81b2y7lhqFZzGccHsc+IQNWsEvNNavbLB7PdmrvBB4P98YZXnoUMRkSMeLH6vM=
     secret:
