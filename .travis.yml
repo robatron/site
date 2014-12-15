@@ -1,14 +1,14 @@
 language: node_js
 node_js:
 - '0.10'
-script: npm run build && ls -lah
+script: npm run build
 deploy:
   provider: s3
   access_key_id: AKIAIESGGUPA5UMUGPUA
   secret_access_key:
     secure: BtjhI4frGn4G5/DaxrPpPbq7nmpMkzgqzr0MVXvFseOJ8spon1TygELkK/2Mntll6phvNzLmaNf3qaXqA9yJjrEFkDRsI91iXWp8mUsJ71fnm7y0gXvr5f2GptNCh7hzkVxuUAi8VQlBMvyl6x+vGE5r0zVMaWyvYpHmvFukFig=
   bucket: robatron01
-  local-dir: public/
+  local-dir: ~/travis/build/robatron/site/public
   acl: public_read
   on:
     repo: robatron/site
