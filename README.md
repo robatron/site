@@ -3,6 +3,20 @@
 
 ## Links
 
+### AWS
+
 - http://robatron.s3-website-us-west-2.amazonaws.com/
 - https://console.aws.amazon.com/s3/home
+
+### Travis CI
+
+- http://docs.travis-ci.com/
+
+### Hexo
+
+- https://github.com/hexojs/hexo
+- https://github.com/hexojs/hexo/wiki/Themes
+
+### Namecheap
+
 - https://manage.www.namecheap.com/myaccount/transfer-status.asp
