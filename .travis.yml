@@ -8,7 +8,8 @@ deploy:
   secret_access_key:
     secure: BtjhI4frGn4G5/DaxrPpPbq7nmpMkzgqzr0MVXvFseOJ8spon1TygELkK/2Mntll6phvNzLmaNf3qaXqA9yJjrEFkDRsI91iXWp8mUsJ71fnm7y0gXvr5f2GptNCh7hzkVxuUAi8VQlBMvyl6x+vGE5r0zVMaWyvYpHmvFukFig=
   bucket: robatron01
-  local_dir: public
+  local_dir: /home/travis/build/robatron/site/public
+  local-dir: /home/travis/build/robatron/site/public
   acl: public_read
   on:
     repo: robatron/site
