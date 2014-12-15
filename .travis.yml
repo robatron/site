@@ -1,7 +1,7 @@
 language: node_js
 node_js:
 - '0.10'
-script: npm run build
+script: npm run build && ls -lah
 deploy:
   provider: s3
   access_key_id: AKIAIESGGUPA5UMUGPUA
