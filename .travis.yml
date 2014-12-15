@@ -10,3 +10,4 @@ deploy:
   bucket: robatron01
   local-dir: public
   acl: public_read
+  skip_cleanup: true
